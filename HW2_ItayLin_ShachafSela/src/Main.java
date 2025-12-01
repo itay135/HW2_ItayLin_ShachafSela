@@ -5,6 +5,7 @@ public class Main {
 	{
 		System.out.println("Hello");
 		System.out.println("test");
+		System.out.println("i love github");
 	}
 
 }
