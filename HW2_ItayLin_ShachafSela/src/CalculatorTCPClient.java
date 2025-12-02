@@ -27,7 +27,7 @@ public class CalculatorTCPClient {
 				
 				if(inputline.equalsIgnoreCase("exit")) {
 					System.out.println("Client closed");
-					System.out.println("Client disconnected.");
+					
 					break;
 				}
 				

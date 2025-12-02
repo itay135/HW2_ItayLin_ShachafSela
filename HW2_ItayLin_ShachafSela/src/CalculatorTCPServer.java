@@ -23,7 +23,8 @@ public class CalculatorTCPServer {
 			{
 				if(inputline.equalsIgnoreCase("exit")) 
 				{
-					System.out.println("Closing calculator..");
+					System.out.println("Client requested to close connection..");
+					System.out.println("Client disconnected.");
 					break;
 				}
 				System.out.println("Server received: " + inputline);
